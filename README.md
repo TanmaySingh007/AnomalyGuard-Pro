@@ -1,4 +1,4 @@
-# AnomalyGuard-Pro - Advanced Time-Series Anomaly Detection Pipeline
+# AnomalyGuard Pro - Advanced Time-Series Anomaly Detection Pipeline
 
 > **Professional-grade automated anomaly detection system with 40+ engineered features, comprehensive analysis, and enterprise-ready reporting capabilities.**
 
@@ -36,6 +36,108 @@ AnomalyGuard Pro is a sophisticated time-series anomaly detection pipeline that 
 - **Distribution Analysis**: Value and score distributions
 - **Temporal Patterns**: Anomaly rates by hour of day
 - **Rolling Statistics**: Moving averages with confidence bands
+
+## 📊 **Visualization Gallery**
+
+### **Time-Series Anomaly Detection Results**
+![Anomaly Detection Results](anomaly_detection_results.png)
+
+*Comprehensive time-series visualization showing:*
+- **Blue line**: Original time-series data with sine wave pattern
+- **Red markers**: High severity anomalies (critical deviations)
+- **Orange markers**: Medium severity anomalies (moderate deviations)
+- **Yellow markers**: Low severity anomalies (minor deviations)
+- **Anomaly score timeline**: Detection confidence over time with severity thresholds
+
+### **Detailed Anomaly Analysis**
+![Detailed Analysis](anomaly_analysis_detailed.png)
+
+*Four-panel comprehensive analysis including:*
+- **Value Distribution**: Histogram showing data distribution with normal vs anomalous points
+- **Anomaly Score Distribution**: Distribution of detection confidence scores
+- **Hourly Anomaly Rate**: Bar chart showing anomaly frequency by hour of day
+- **Rolling Statistics**: Moving averages with ±2σ confidence bands and anomaly highlights
+
+### **Feature Importance Analysis**
+![Feature Analysis](feature_analysis_plots.png)
+
+*Advanced feature analysis showcasing:*
+- **Top Feature Importance**: Bar chart ranking the most influential features for anomaly detection
+- **Temporal Feature Patterns**: Analysis of time-based feature contributions
+- **Statistical Feature Impact**: Understanding of rolling statistics and lag features
+- **Model Performance Metrics**: Separation scores and detection accuracy
+
+### **Sample Results Overview**
+```
+📈 Detection Performance:
+├── Total Data Points: 1,000
+├── Anomalies Detected: 158 (15.80%)
+├── Separation Score: 0.0717
+├── Most Severe Anomaly: -0.1801
+└── Average Anomaly Score: -0.0385
+
+🎯 Severity Distribution:
+├── HIGH Severity: 23 anomalies (14.6%)
+├── MEDIUM Severity: 67 anomalies (42.4%)
+└── LOW Severity: 68 anomalies (43.0%)
+```
+
+### **Key Visualization Features**
+- **Color-Coded Severity**: Red (High), Orange (Medium), Yellow (Low)
+- **Interactive Elements**: Zoom, pan, and hover capabilities
+- **Professional Styling**: Clean, publication-ready visualizations
+- **Multi-Panel Layout**: Comprehensive analysis in single views
+- **Statistical Overlays**: Confidence intervals and trend lines
+
+### **Time-Series Anomaly Detection Results**
+![Anomaly Detection Results](anomaly_detection_results.png)
+
+*Comprehensive time-series visualization showing:*
+- **Blue line**: Original time-series data with sine wave pattern
+- **Red markers**: High severity anomalies (critical deviations)
+- **Orange markers**: Medium severity anomalies (moderate deviations)
+- **Yellow markers**: Low severity anomalies (minor deviations)
+- **Anomaly score timeline**: Detection confidence over time with severity thresholds
+
+### **Detailed Anomaly Analysis**
+![Detailed Analysis](anomaly_analysis_detailed.png)
+
+*Four-panel comprehensive analysis including:*
+- **Value Distribution**: Histogram showing data distribution with normal vs anomalous points
+- **Anomaly Score Distribution**: Distribution of detection confidence scores
+- **Hourly Anomaly Rate**: Bar chart showing anomaly frequency by hour of day
+- **Rolling Statistics**: Moving averages with ±2σ confidence bands and anomaly highlights
+
+### **Feature Importance Analysis**
+![Feature Analysis](feature_analysis_plots.png)
+
+*Advanced feature analysis showcasing:*
+- **Top Feature Importance**: Bar chart ranking the most influential features for anomaly detection
+- **Temporal Feature Patterns**: Analysis of time-based feature contributions
+- **Statistical Feature Impact**: Understanding of rolling statistics and lag features
+- **Model Performance Metrics**: Separation scores and detection accuracy
+
+### **Sample Results Overview**
+```
+📈 Detection Performance:
+├── Total Data Points: 1,000
+├── Anomalies Detected: 158 (15.80%)
+├── Separation Score: 0.0717
+├── Most Severe Anomaly: -0.1801
+└── Average Anomaly Score: -0.0385
+
+🎯 Severity Distribution:
+├── HIGH Severity: 23 anomalies (14.6%)
+├── MEDIUM Severity: 67 anomalies (42.4%)
+└── LOW Severity: 68 anomalies (43.0%)
+```
+
+### **Key Visualization Features**
+- **Color-Coded Severity**: Red (High), Orange (Medium), Yellow (Low)
+- **Interactive Elements**: Zoom, pan, and hover capabilities
+- **Professional Styling**: Clean, publication-ready visualizations
+- **Multi-Panel Layout**: Comprehensive analysis in single views
+- **Statistical Overlays**: Confidence intervals and trend lines
 
 ## 🛠️ **Tech Stack**
 
@@ -187,11 +289,12 @@ python anomaly_pipeline.py
 7. **Reporting**: Creates detailed analysis reports
 
 ### **Output Files Generated**
-- `simulated_data.csv` - Original dataset
-- `anomaly_detection_results.csv` - Results with predictions
-- `anomaly_detection_results.png` - Main visualization
-- `anomaly_analysis_detailed.png` - Detailed analysis plots
-- `anomaly_detection_report.txt` - Comprehensive report
+- `simulated_data.csv` - Original dataset with 1,000 time-series data points
+- `anomaly_detection_results.csv` - Complete dataset with predictions, scores, and severity classifications
+- `anomaly_detection_results.png` - Main time-series visualization with color-coded anomalies
+- `anomaly_analysis_detailed.png` - Four-panel detailed analysis with distributions and patterns
+- `feature_analysis_plots.png` - Feature importance analysis and model performance metrics
+- `anomaly_detection_report.txt` - Comprehensive text report with detailed findings and recommendations
 
 ## 🔧 **Configuration Options**
 
@@ -354,7 +457,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### **Project Maintainer**
 - **Name**: Tanmay Singh
 - **Email**: tanmaysingh08580@gmail.com
-- **GitHub**: [Your GitHub Profile]
+- **GitHub**: []
 
 ### **Support**
 - **Issues**: Report bugs and feature requests via GitHub Issues
@@ -389,7 +492,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **AnomalyGuard Pro** - Professional anomaly detection for the modern data-driven world.
 
 *Built with ❤️ for the data science community* 
-=======
-# AnomalyGuard-Pro
-Advanced Time-Series Anomaly Detection Pipeline
 
