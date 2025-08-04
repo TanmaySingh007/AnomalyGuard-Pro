@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AnomalyGuard Pro - Advanced Time-Series Anomaly Detection Pipeline
 
 > **Professional-grade automated anomaly detection system with 40+ engineered features, comprehensive analysis, and enterprise-ready reporting capabilities.**
@@ -389,3 +390,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **AnomalyGuard Pro** - Professional anomaly detection for the modern data-driven world.
 
 *Built with ❤️ for the data science community* 
+=======
+# ChronoSentry-AI
+Advanced Time-Series Anomaly Detection Pipeline
+>>>>>>> 70377ed77b0375f44b929c85ac0cfcf7b16b112f
