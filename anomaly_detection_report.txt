@@ -1,0 +1,40 @@
+================================================================================
+COMPREHENSIVE ANOMALY DETECTION REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total data points analyzed: 1000
+Anomalies detected: 158 (15.80%)
+Model separation score: 0.0717
+
+ANOMALY DETAILS
+----------------------------------------
+Most severe anomaly score: -0.1801
+Average anomaly score: -0.0385
+Anomaly value range: -17.9324 to 21.3649
+
+TEMPORAL ANALYSIS
+----------------------------------------
+Anomalies by hour of day:
+  Hour 00: 158 anomalies
+
+TOP FEATURE IMPORTANCE
+----------------------------------------
+ 1. rate_of_change: 0.0055
+ 2. pct_change_2: 0.0051
+ 3. pct_change_1: 0.0043
+ 4. acceleration: 0.0037
+ 5. volatility: 0.0019
+ 6. value: 0.0010
+ 7. rolling_mean_20: 0.0009
+ 8. rolling_mean_5: 0.0009
+ 9. rolling_median_5: 0.0009
+10. rolling_min_20: 0.0008
+
+RECOMMENDATIONS
+----------------------------------------
+⚠️  High anomaly rate detected - consider investigating data quality
+⚠️  Low separation - consider feature engineering improvements
+
+================================================================================
