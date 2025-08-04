@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AnomalyGuard Pro - Advanced Time-Series Anomaly Detection Pipeline
 
 > **Professional-grade automated anomaly detection system with 40+ engineered features, comprehensive analysis, and enterprise-ready reporting capabilities.**
